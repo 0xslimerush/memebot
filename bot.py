@@ -56,7 +56,7 @@ def main():
     # Telegram Bot Token
     TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 
-    updater = Updater(TOKEN, use_context=True)
+    updater = Updater(TOKEN)
 
     dp = updater.dispatcher
 
