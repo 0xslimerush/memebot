@@ -19,7 +19,7 @@ def faregpt(update, context):
     # Generate an image using DALL-E 3
     response = client.images.generate(
         model="dall-e-3",
-        prompt="all sorts of diverse aliens playing bright, fun and colorful casino games where all the casino chips are purple, make sure to use a fun pixel style but not too pixelly",  # Example prompt, replace with user input or specific prompt
+        prompt="one 1024x1024 image of diverse aliens playing bright, fun and colorful casino games where all the casino chips are purple, make sure to use a fun pixel style but not too pixelly",  # Example prompt, replace with user input or specific prompt
         size="1024x1024",
         quality="standard",
         n=1,
