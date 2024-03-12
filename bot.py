@@ -60,7 +60,6 @@ def main():
 
     dp = updater.dispatcher
 
-    dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("faregpt", faregpt))
 
     updater.start_polling()
